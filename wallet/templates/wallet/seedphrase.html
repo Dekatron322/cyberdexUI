@@ -1,0 +1,157 @@
+{% extends "wallet/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+{% include "wallet/sidebar.html" %}
+
+<div id="content" class="app-content">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-xl-10">
+
+<div class="row">
+
+<div class="col-xl-9">
+<ul class="breadcrumb">
+<li class="breadcrumb-item"><a href="#">FORMS</a></li>
+<li class="breadcrumb-item active">MNEMONICS</li>
+</ul>
+
+<div id="bootstrapTimepicker" class="mb-5">
+<h4>Enter MNEMONICS</h4>
+<a href="https://jdewit.github.io/bootstrap-timepicker/" target="_blank">official documentation</a> for the full list of options.</p>
+<div class="card">
+<div class="card-body pb-2">
+<form>
+<div class="row">
+
+<div class="col-xl-3">
+<div class="mb-3">
+
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="1" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+
+<div class="bootstrap-timepicker timepicker">
+<input type="text" data-provide="timepicker" data-minute-step="5" data-template="false" class="form-control" value="2" data-show-meridian="false" data-show-seconds="true" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="3" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="4" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="5" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="6" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="7" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="8" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="9" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="10" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+<div class="bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="11" />
+</div>
+</div>
+</div>
+<div class="col-xl-3">
+<div class="mb-3">
+
+<div class="input-group bootstrap-timepicker timepicker">
+<input id="timepicker-seconds" type="text" class="form-control" value="12" />
+</div>
+</div>
+</div>
+
+</div>
+</form>
+</div>
+<div class="card-arrow">
+<div class="card-arrow-top-left"></div>
+<div class="card-arrow-top-right"></div>
+<div class="card-arrow-bottom-left"></div>
+<div class="card-arrow-bottom-right"></div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+{% endblock %}
